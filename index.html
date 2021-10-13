@@ -1,166 +1,492 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
     <title>Html-Bootstrap-SCSS</title>
-</head>
+  </head>
 
-<body class="bg-white">
+  <body>
+<!-- Navigation -->
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand px-3 bg-dark text-white" href="#">ABC</a>
+      <button
+        class="navbar-toggler border-dark"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-    <nav class="bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 navbar py-3">
-                    <a href="#" class="navbar-brand bg-secondary px-2 text-light">ABC</a>
-                </div>
-                <div class="col py-3">
-                    <ul class="navbar justify-content-end my-0">
-                        <li class="navbar-nav mx-3"><a href="#" class="text-dark">Home</a></li>
-                        <li class="navbar-nav mx-3"><a href="#" class="text-dark">Contact</a></li>
-                        <li class="navbar-nav mx-3"><a href="#" class="text-dark">About</a></li>
-                        <li class="navbar-nav mx-3"><a href="#" class="text-dark">Servises</a></li>
-                        <button class="btn btn-primary">Get Started</button>
-                    </ul>
-                </div>
-            </div>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-dark font-weight-bold" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold" href="#">Servises</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 mx-lg-2 my-lg-0">
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">
+            Get Started
+          </button>
+        </form>
+      </div>
     </nav>
 
-    <div class="container bg-white">
-        <div class="row ">
-            <div class="col-lg-6 py-5 d-flex flex-column justify-content-center align-items-start">
-                <h3 class="mx-5 py-2">Build a Credit Card
-                    That is Definitely Yours</h3>
-                <p class="mx-5 py-2">With the OneSync Credit Card you can
-                    customise your card the way you want</p>
-                <button class="btn btn-primary mx-5 py-2">Get Started</button>
-            </div>
-            <div class="col-lg-6 py-5 d-flex justify-content-center align-items-center">
-                <img src="card1.PNG" alt="credit card">
-            </div>
+<!-- Section 1 -->
+    <div class="container-fluid bg-white">
+      <div class="row">
+        <div
+          class="
+            col-lg-6
+            py-5
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center align-items-lg-start
+            px-md-5
+          "
+        >
+          <h3 class="py-2 text-lg-left text-center">
+            Build a Credit Card That is Definitely Yours
+          </h3>
+          <p class="py-2 text-lg-left text-center">
+            With the OneSync Credit Card you can customise your card the way you
+            want
+          </p>
+          <button class="btn btn-primary py-2">Get Started</button>
         </div>
+        <div
+          class="col-lg-6 py-5 d-flex justify-content-center align-items-center"
+        >
+          <img src="card1.PNG" alt="credit card" />
+        </div>
+      </div>
     </div>
 
-    <div class="container bg-info">
-        <div class="row ">
-            <div class="col py-5 d-flex align-items-center">
-                <h3 class="mx-5 py-2">The Freedom to Create
-                    The Credit Card You Want</h3>
-            </div>
-            <div class="col py-5 d-flex flex-column justify-content-center">
-                <p class="mx-5 py-2 text-white">That's why it comes with benefits & rewards chosen by you.
-                    Available in multiple designs, your card comes in a style selected by you.
-                    You can come back each year,
-                    to edit your benefits or update your style.</p>
-                <p class="mx-5 py-2 text-white">Your OneSync Credit Card stays true to you, year after year.
-                    It’s the only card you’ll ever need.</p>
-                <a href="#" class="mx-5 py-2 text-white">Get Started ></a>
-            </div>
+<!-- section 2 -->
+    <div class="container-fluid bg-info">
+      <div class="row">
+        <div
+          class="
+            col-lg-6
+            py-5
+            px-md-5
+            d-flex
+            justify-content-center
+            align-items-center
+          "
+        >
+          <h3 class="py-2 text-white text-lg-left text-center">
+            The Freedom to Create The Credit Card You Want
+          </h3>
         </div>
+        <div class="col-lg-6 py-5 px-md-5 d-flex flex-column">
+          <p class="py-2 text-white text-lg-left text-center">
+            That's why it comes with benefits & rewards chosen by you. Available
+            in multiple designs, your card comes in a style selected by you. You
+            can come back each year, to edit your benefits or update your style.
+          </p>
+          <p class="py-2 text-white text-lg-left text-center">
+            Your OneSync Credit Card stays true to you, year after year. It’s
+            the only card you’ll ever need.
+          </p>
+          <a href="#" class="py-2 text-white text-lg-left text-center"
+            >Get Started ></a
+          >
+        </div>
+      </div>
     </div>
 
-    <div class="container bg-white">
-        <div class="row ">
-            <div class="col bg-primary py-5 d-flex align-items-center">
-                <form class="d-flex flex-column w-100 justify-content-center align-items-center">
-                    <input type="text" placeholder="Mobile number" class="w-50 my-3 py-2 rounded">
-                    <input type="text" placeholder="PAN card number" class="w-50 my-3 py-2 rounded">
-                    <input type="email" placeholder="email" class="w-50 my-3 py-2 rounded">
-                    <button class="btn btn-outline-warning w-25 py-2 my-2">Submit</button>
-                </form>
-            </div>
-            <div class="col py-5 d-flex flex-column justify-content-center">
-                <img src="#" alt="" width="32px" height="32px" class="mx-5 px-5 pb-5">
-                <h3 class="mx-5 px-5 py-2">Fill Eligibility Form</h3>
-                <p class="mx-5 px-5 py-2">Tell us about yourself, to find out if you’re
-                    eligible to apply.</p>
-            </div>
+<!-- section 3 -->
+    <div class="container-fluid bg-white">
+      <div class="row">
+        <div
+          class="
+            col-lg-6
+            bg-primary
+            py-5
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <form
+            class="
+              d-flex
+              flex-column
+              w-100
+              px-sm-5 px-lg-0
+              justify-content-center
+              align-items-center
+            "
+          >
+            <input
+              type="text"
+              placeholder="Mobile number"
+              class="w-50 pl-3 my-3 py-2 rounded border-0"
+            />
+            <input
+              type="text"
+              placeholder="PAN card number"
+              class="w-50 pl-3 my-3 py-2 rounded border-0"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="w-50 pl-3 my-3 py-2 rounded border-0"
+            />
+            <button class="btn btn-outline-warning w-25 py-2 my-2">
+              Submit
+            </button>
+          </form>
         </div>
+        <div
+          class="
+            col-lg-6
+            py-5
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+            align-items-lg-start
+          "
+        >
+          <img
+            src="#"
+            alt=""
+            width="32px"
+            height="32px"
+            class="mx-lg-5 px-lg-5 pb-5"
+          />
+          <h3 class="mx-5 px-5 py-2 text-lg-left text-center">Fill Eligibility Form</h3>
+          <p class="mx-5 px-5 py-2 text-lg-left text-center">
+            Tell us about yourself, to find out if you’re eligible to apply.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div class="container bg-danger">
-        <div class="row ">
-            <div class="col-lg-6 py-5 d-flex flex-column justify-content-center align-items-start">
-                <img src="#" alt="" width="32px" height="32px" class="mx-5 pb-5">
-                <h3 class="mx-5 py-2">Build a Credit Card
-                    That is Definitely Yours</h3>
-                <p class="mx-5 py-2">With the OneSync Credit Card you can
-                    customise your card the way you want</p>
-            </div>
-            <div class="col-lg-6 py-5 d-flex pl-0 align-items-center">
-                <img src="card2.PNG" alt="credit card">
-            </div>
+<!-- section 4 -->
+    <div class="container-fluid bg-danger">
+      <div class="d-flex flex-lg-row flex-column-reverse">
+        <div
+          class="
+            col-lg-6
+            py-5
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-lg-start
+            align-items-center
+            px-lg-5
+          "
+        >
+          <img src="#" alt="" width="32px" height="32px" class="pb-5" />
+          <h3 class="py-2 text-lg-left text-center">
+            Build a Credit Card That is Definitely Yours
+          </h3>
+          <p class="py-2 text-lg-left text-center">
+            With the OneSync Credit Card you can customise your card the way you
+            want
+          </p>
         </div>
+        <div class="
+          col-lg-6
+          py-5 
+          d-flex 
+          flex-column 
+          pl-0 
+          align-items-center
+          align-items-lg-start 
+          justify-content-center 
+          "
+        >
+          <img src="card2.PNG" alt="credit card" />
+        </div>
+      </div>
     </div>
 
-    <div class="container bg-light">
-        <div class="row ">
-            <div class="col-lg-6 py-5 d-flex pl-0 justify-content-center align-items-center">
-                <div class="container">
-                    <div class="row justify-content-center py-2">
-                        <img src="card3.PNG" alt="credit card">
-                    </div>
-                    <div class="row px-5 mx-5">
-                        <div class="col d-flex justify-content-center">
-                            <img src="card4.PNG" alt="credit card">
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="card5.PNG" alt="credit card">
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="card6.PNG" alt="credit card">
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="card7.PNG" alt="credit card">
-                        </div>
-                    </div>
-                </div>
+<!-- section 5 -->
+    <div class="container-fluid bg-light">
+      <div class="row">
+        <div
+          class="
+            col-lg-6
+            py-5
+            d-flex
+            pl-0
+            justify-content-center
+            align-items-center
+          "
+        >
+          <div class="container">
+            <div class="row justify-content-center py-2">
+              <img src="card3.PNG" alt="credit card" />
             </div>
-            <div class="col-lg-6 py-5 d-flex flex-column justify-content-center align-items-start">
-                <img src="#" alt="" width="32px" height="32px" class="mx-5 pb-5">
-                <h3 class="mx-5 py-2">Build a Credit Card
-                    That is Definitely Yours</h3>
-                <p class="mx-5 py-2">With the OneSync Credit Card you can
-                    customise your card the way you want</p>
+            <div class="row px-5 mx-5">
+              <div class="col-3 d-flex justify-content-center">
+                <img src="card4.PNG" alt="credit card" />
+              </div>
+              <div class="col-3 d-flex justify-content-center">
+                <img src="card5.PNG" alt="credit card" />
+              </div>
+              <div class="col-3 d-flex justify-content-center">
+                <img src="card6.PNG" alt="credit card" />
+              </div>
+              <div class="col-3 d-flex justify-content-center">
+                <img src="card7.PNG" alt="credit card" />
+              </div>
             </div>
+          </div>
         </div>
+        <div
+          class="
+            col-lg-6
+            py-5
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+            align-items-lg-start
+            px-lg-5
+          "
+        >
+          <img src="#" alt="" width="32px" height="32px" class="pb-5" />
+          <h3 class="py-2 text-lg-left text-center">Select Your Style</h3>
+          <p class="pr-2 py-2 text-lg-left text-center">
+            Match your card to your personality. Whether you like a minimal look
+            or something that catches everyone’s eyes, we’ve got a style for
+            you. You can update your style every year, for a small fee
+          </p>
+        </div>
+      </div>
     </div>
 
+<!-- section 6 -->
+    <div class="container-fluid bg-success py-5 px-lg-5 px-md-3">
+      <div class="article mx-5 my-3 px-5">
+        <h3>FAQs</h3>
+        <div class="dropdown">
+          <p
+            class="font-weight-bold text-danger dropdown-toggle"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <a class="text-danger" href="#">Who’s eligible for the Card?</a>
+            <img src="Vector.png" alt="direction" />
+          </p>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <p>
+              If you’re between 23-60 years of age, have a monthly income of
+              ₹25,000 or more, and have never defaulted on a credit card or loan
+              payment, we’d encourage you to apply. However, your application
+              will be declined if your location isn’t serviceable or if your
+              credit score is low.
+            </p>
+          </div>
+        </div>
+        <hr class="" />
+        <div class="dropdown">
+          <p
+            class="font-weight-bold text-danger dropdown-toggle"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <a class="text-danger" href="#">Is my location serviceable?</a>
+            <img src="Vector.png" alt="direction" />
+          </p>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <p>
+              If you’re between 23-60 years of age, have a monthly income of
+              ₹25,000 or more, and have never defaulted on a credit card or loan
+              payment, we’d encourage you to apply. However, your application
+              will be declined if your location isn’t serviceable or if your
+              credit score is low.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="dropdown">
+          <p
+            class="font-weight-bold text-danger dropdown-toggle"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <a class="text-danger" href="#"
+              >What if I don’t want to pay at all?</a
+            >
+            <img src="Vector.png" alt="direction" />
+          </p>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <p>
+              If you’re between 23-60 years of age, have a monthly income of
+              ₹25,000 or more, and have never defaulted on a credit card or loan
+              payment, we’d encourage you to apply. However, your application
+              will be declined if your location isn’t serviceable or if your
+              credit score is low.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="dropdown">
+          <p
+            class="font-weight-bold text-danger dropdown-toggle"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <a class="text-danger" href="#"
+              >What happens after I’ve build my card?</a
+            >
+            <img src="Vector.png" alt="direction" />
+          </p>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <p>
+              If you’re between 23-60 years of age, have a monthly income of
+              ₹25,000 or more, and have never defaulted on a credit card or loan
+              payment, we’d encourage you to apply. However, your application
+              will be declined if your location isn’t serviceable or if your
+              credit score is low.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- section 7 -->
+    <footer
+      class="
+        container-fluid
+        bg-primary
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+      "
+    >
+      <h3 class="pt-5 text-white">One Sync Credit Card</h3>
+      <p class="text-white">Experience Freedom</p>
+      <button class="mt-3 btn btn-white">Get Started</button>
+      <hr class="w-75 my-4" />
+      <div class="row w-75 pb-5">
+        <div
+          class="
+            pt-3
+            col-md-3
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-md-start align-items-center
+          "
+        >
+          <p><a href="" class="text-white">Manage Your Card</a></p>
+          <p><a href="" class="text-white">Track Your Application</a></p>
+          <p><a href="" class="text-white">Contact Us</a></p>
+        </div>
+        <hr class="py-1 px-5 py-md-0 px-md-0">
+        <div
+          class="
+            pt-3
+            col-md-3
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-md-start align-items-center
+          "
+        >
+          <p><a href="" class="text-white">Manage Your Card</a></p>
+          <p><a href="" class="text-white">Track Your Application</a></p>
+          <p><a href="" class="text-white">Contact Us</a></p>
+        </div>
+        <hr class="py-1 px-5 py-md-0 px-md-0">
+        <div
+          class="
+            pt-3
+            col-md-3
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-md-start align-items-center
+          "
+        >
+          <p><a href="" class="text-white">Manage Your Card</a></p>
+          <p><a href="" class="text-white">Track Your Application</a></p>
+          <p><a href="" class="text-white">Contact Us</a></p>
+        </div>
+        <hr class="py-1 px-5 py-md-0 px-md-0">
+        <div
+          class="
+            pt-3
+            col-md-3
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-md-start align-items-center
+          "
+        >
+          <p><a href="" class="text-white">Manage Your Card</a></p>
+          <p><a href="" class="text-white">Track Your Application</a></p>
+          <p><a href="" class="text-white">Contact Us</a></p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
