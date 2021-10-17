@@ -3,24 +3,24 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <!-- Include my SCSS file -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
 
     <title>Html-Bootstrap-SCSS</title>
   </head>
 
   <body>
-<!-- Navigation -->
+    <!-- Navigation -->
     <nav class="container navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand px-3 bg-dark text-white" href="#">ABC</a>
       <button
@@ -60,7 +60,7 @@
       </div>
     </nav>
 
-<!-- Section 1 -->
+    <!-- Section 1 -->
     <div class="container-fluid bg-white">
       <div class="row">
         <div
@@ -91,7 +91,7 @@
       </div>
     </div>
 
-<!-- section 2 -->
+    <!-- section 2 -->
     <div class="container-fluid bg-info">
       <div class="row">
         <div
@@ -125,7 +125,7 @@
       </div>
     </div>
 
-<!-- section 3 -->
+    <!-- section 3 -->
     <div class="container-fluid bg-white">
       <div class="row">
         <div
@@ -174,18 +174,11 @@
             d-flex
             flex-column
             justify-content-center
-            align-items-center
-            align-items-lg-start
+            align-items-center align-items-lg-start
             px-lg-5
           "
         >
-          <img
-            src="#"
-            alt=""
-            width="32px"
-            height="32px"
-            class="pb-5"
-          />
+          <img src="#" alt="" width="32px" height="32px" class="pb-5" />
           <h3 class="py-2 text-lg-left text-center">Fill Eligibility Form</h3>
           <p class="py-2 text-lg-left text-center">
             Tell us about yourself, to find out if you’re eligible to apply.
@@ -194,7 +187,7 @@
       </div>
     </div>
 
-<!-- section 4 -->
+    <!-- section 4 -->
     <div class="container-fluid bg-danger">
       <div class="d-flex flex-lg-row flex-column-reverse">
         <div
@@ -204,8 +197,7 @@
             d-flex
             flex-column
             justify-content-center
-            align-items-lg-start
-            align-items-center
+            align-items-lg-start align-items-center
             px-lg-5
           "
         >
@@ -218,15 +210,15 @@
             want
           </p>
         </div>
-        <div class="
-          col-lg-6
-          py-5 
-          d-flex 
-          flex-column 
-          pl-0 
-          align-items-center
-          align-items-lg-start 
-          justify-content-center 
+        <div
+          class="
+            col-lg-6
+            py-5
+            d-flex
+            flex-column
+            pl-0
+            align-items-center align-items-lg-start
+            justify-content-center
           "
         >
           <img src="card2.PNG" alt="credit card" />
@@ -234,7 +226,7 @@
       </div>
     </div>
 
-<!-- section 5 -->
+    <!-- section 5 -->
     <div class="container-fluid bg-light">
       <div class="row">
         <div
@@ -274,8 +266,7 @@
             d-flex
             flex-column
             justify-content-center
-            align-items-center
-            align-items-lg-start
+            align-items-center align-items-lg-start
             px-lg-5
           "
         >
@@ -290,110 +281,138 @@
       </div>
     </div>
 
-<!-- section 6 -->
-    <div class="container-fluid bg-success py-5 px-lg-5 px-md-3">
+    <!-- section 6 -->
+    <div class="container-fluid py-5 px-lg-5 px-md-3">
       <div class="article mx-md-5 my-3 px-md-5">
-        <h3>FAQs</h3>
-        <div class="dropdown">
-          <p
-            class="font-weight-bold text-danger dropdown-toggle"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <a class="text-danger" href="#">Who’s eligible for the Card?</a>
-            <img src="Vector.png" alt="direction" />
-          </p>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <p>
-              If you’re between 23-60 years of age, have a monthly income of
-              ₹25,000 or more, and have never defaulted on a credit card or loan
-              payment, we’d encourage you to apply. However, your application
-              will be declined if your location isn’t serviceable or if your
-              credit score is low.
-            </p>
-          </div>
-        </div>
-        <hr class="" />
-        <div class="dropdown">
-          <p
-            class="font-weight-bold text-danger dropdown-toggle"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <a class="text-danger" href="#">Is my location serviceable?</a>
-            <img src="Vector.png" alt="direction" />
-          </p>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <p>
-              If you’re between 23-60 years of age, have a monthly income of
-              ₹25,000 or more, and have never defaulted on a credit card or loan
-              payment, we’d encourage you to apply. However, your application
-              will be declined if your location isn’t serviceable or if your
-              credit score is low.
-            </p>
-          </div>
-        </div>
-        <hr />
-        <div class="dropdown">
-          <p
-            class="font-weight-bold text-danger dropdown-toggle"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <a class="text-danger" href="#"
-              >What if I don’t want to pay at all?</a
+        <h3 class="text-md-center py-3">
+          FAQs
+        </h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button text-danger"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Who’s eligible for the Card?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
             >
-            <img src="Vector.png" alt="direction" />
-          </p>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <p>
-              If you’re between 23-60 years of age, have a monthly income of
-              ₹25,000 or more, and have never defaulted on a credit card or loan
-              payment, we’d encourage you to apply. However, your application
-              will be declined if your location isn’t serviceable or if your
-              credit score is low.
-            </p>
+              <div class="accordion-body">
+                <p>
+                  If you’re between 23-60 years of age, have a monthly income of
+                  ₹25,000 or more, and have never defaulted on a credit card or
+                  loan payment, we’d encourage you to apply. However, your
+                  application will be declined if your location isn’t
+                  serviceable or if your credit score is low.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <hr />
-        <div class="dropdown">
-          <p
-            class="font-weight-bold text-danger dropdown-toggle"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <a class="text-danger" href="#"
-              >What happens after I’ve build my card?</a
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button text-danger collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Is my location serviceable?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
             >
-            <img src="Vector.png" alt="direction" />
-          </p>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <p>
-              If you’re between 23-60 years of age, have a monthly income of
-              ₹25,000 or more, and have never defaulted on a credit card or loan
-              payment, we’d encourage you to apply. However, your application
-              will be declined if your location isn’t serviceable or if your
-              credit score is low.
-            </p>
+              <div class="accordion-body">
+                <p>
+                  If you’re between 23-60 years of age, have a monthly income of
+                  ₹25,000 or more, and have never defaulted on a credit card or
+                  loan payment, we’d encourage you to apply. However, your
+                  application will be declined if your location isn’t
+                  serviceable or if your credit score is low.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button text-danger collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What if I don’t want to pay at all?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  If you’re between 23-60 years of age, have a monthly income of
+                  ₹25,000 or more, and have never defaulted on a credit card or
+                  loan payment, we’d encourage you to apply. However, your
+                  application will be declined if your location isn’t
+                  serviceable or if your credit score is low.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button text-danger collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                What if I don’t want to pay at all?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  If you’re between 23-60 years of age, have a monthly income of
+                  ₹25,000 or more, and have never defaulted on a credit card or
+                  loan payment, we’d encourage you to apply. However, your
+                  application will be declined if your location isn’t
+                  serviceable or if your credit score is low.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <hr />
       </div>
     </div>
 
-<!-- section 7 -->
+    <!-- section 7 -->
     <footer
       class="
         container-fluid
@@ -406,9 +425,10 @@
     >
       <h3 class="pt-5 text-white">One Sync Credit Card</h3>
       <p class="text-white">Experience Freedom</p>
-      <button class="mt-3 btn btn-white">Get Started</button>
+      <button class="btn btn-light">Get Started</button>
       <hr class="w-75 my-4" />
-      <div class="row w-75 pb-5">
+
+      <div class="d-flex flex-md-row flex-column w-75 pb-5">
         <div
           class="
             pt-3
@@ -419,11 +439,11 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white">Manage Your Card</a></p>
-          <p><a href="" class="text-white">Track Your Application</a></p>
-          <p><a href="" class="text-white">Contact Us</a></p>
+          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
+          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
+          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
         </div>
-        <hr class="py-1 px-5 py-md-0 px-md-0">
+        <hr class="my-4 py-md-0 px-md-0">
         <div
           class="
             pt-3
@@ -434,11 +454,11 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white">Manage Your Card</a></p>
-          <p><a href="" class="text-white">Track Your Application</a></p>
-          <p><a href="" class="text-white">Contact Us</a></p>
+          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
+          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
+          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
         </div>
-        <hr class="py-1 px-5 py-md-0 px-md-0">
+        <hr class="my-4 py-md-0 px-md-0">
         <div
           class="
             pt-3
@@ -449,11 +469,11 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white">Manage Your Card</a></p>
-          <p><a href="" class="text-white">Track Your Application</a></p>
-          <p><a href="" class="text-white">Contact Us</a></p>
+          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
+          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
+          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
         </div>
-        <hr class="py-1 px-5 py-md-0 px-md-0">
+        <hr class="my-4 py-md-0 px-md-0">
         <div
           class="
             pt-3
@@ -464,29 +484,26 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white">Manage Your Card</a></p>
-          <p><a href="" class="text-white">Track Your Application</a></p>
-          <p><a href="" class="text-white">Contact Us</a></p>
+          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
+          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
+          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
         </div>
       </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
