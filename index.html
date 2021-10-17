@@ -26,8 +26,8 @@
       <button
         class="navbar-toggler border-dark"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -36,11 +36,15 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-dark font-weight-bold" href="#"
-              >Home <span class="sr-only">(current)</span></a
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-dark font-weight-bold"
+              href="#"
+              aria-current="page"
             >
+              Home
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark font-weight-bold" href="#">Contact</a>
@@ -52,11 +56,9 @@
             <a class="nav-link text-dark font-weight-bold" href="#">Servises</a>
           </li>
         </ul>
-        <form class="form-inline my-2 mx-lg-2 my-lg-0">
-          <button class="btn btn-primary my-2 my-sm-0" type="submit">
-            Get Started
-          </button>
-        </form>
+        <button class="btn btn-primary my-2 my-sm-0 mx-lg-2" type="submit">
+          Get Started
+        </button>
       </div>
     </nav>
 
@@ -74,10 +76,10 @@
             px-md-5
           "
         >
-          <h3 class="py-2 text-lg-left text-center">
+          <h3 class="py-2 text-lg-start text-center">
             Build a Credit Card That is Definitely Yours
           </h3>
-          <p class="py-2 text-lg-left text-center">
+          <p class="py-2 text-lg-start text-center">
             With the OneSync Credit Card you can customise your card the way you
             want
           </p>
@@ -86,7 +88,7 @@
         <div
           class="col-lg-6 py-5 d-flex justify-content-center align-items-center"
         >
-          <img src="card1.PNG" alt="credit card" />
+          <img src="card1.PNG" width="90%" alt="credit card">
         </div>
       </div>
     </div>
@@ -104,21 +106,21 @@
             align-items-center
           "
         >
-          <h3 class="py-2 text-white text-lg-left text-center">
+          <h3 class="py-2 text-white text-lg-start text-center">
             The Freedom to Create The Credit Card You Want
           </h3>
         </div>
         <div class="col-lg-6 py-5 px-md-5 d-flex flex-column">
-          <p class="py-2 text-white text-lg-left text-center">
+          <p class="py-2 text-white text-lg-start text-center">
             That's why it comes with benefits & rewards chosen by you. Available
             in multiple designs, your card comes in a style selected by you. You
             can come back each year, to edit your benefits or update your style.
           </p>
-          <p class="py-2 text-white text-lg-left text-center">
+          <p class="py-2 text-white text-lg-start text-center">
             Your OneSync Credit Card stays true to you, year after year. It’s
             the only card you’ll ever need.
           </p>
-          <a href="#" class="py-2 text-white text-lg-left text-center"
+          <a href="#" class="py-2 text-white text-lg-start text-center"
             >Get Started ></a
           >
         </div>
@@ -150,17 +152,17 @@
             <input
               type="text"
               placeholder="Mobile number"
-              class="pl-3 w-75 my-3 py-2 rounded border-0 mx-auto"
+              class="ps-3 w-75 my-3 py-2 rounded border-0 mx-auto"
             />
             <input
               type="text"
               placeholder="PAN card number"
-              class="pl-3 w-75 my-3 py-2 rounded border-0"
+              class="ps-3 w-75 my-3 py-2 rounded border-0"
             />
             <input
               type="email"
               placeholder="Email"
-              class="pl-3 w-75 my-3 py-2 rounded border-0"
+              class="ps-3 w-75 my-3 py-2 rounded border-0"
             />
             <button class="btn px-3 btn-outline-warning py-2 my-2">
               Submit
@@ -179,8 +181,8 @@
           "
         >
           <img src="#" alt="" width="32px" height="32px" class="pb-5" />
-          <h3 class="py-2 text-lg-left text-center">Fill Eligibility Form</h3>
-          <p class="py-2 text-lg-left text-center">
+          <h3 class="py-2 text-lg-start text-center">Fill Eligibility Form</h3>
+          <p class="py-2 text-lg-start text-center">
             Tell us about yourself, to find out if you’re eligible to apply.
           </p>
         </div>
@@ -202,12 +204,11 @@
           "
         >
           <img src="#" alt="" width="32px" height="32px" class="pb-5" />
-          <h3 class="py-2 text-lg-left text-center">
-            Build a Credit Card That is Definitely Yours
-          </h3>
-          <p class="py-2 text-lg-left text-center">
-            With the OneSync Credit Card you can customise your card the way you
-            want
+          <h3 class="py-2 text-lg-start text-center">Choose Your Rewards</h3>
+          <p class="py-2 text-lg-start text-center">
+            Match your card to your lifestyle. We’ve got benefits from across
+            brands & categories for you to choose from. Each benefit has an
+            attached fee. Just add the ones you like to your card.
           </p>
         </div>
         <div
@@ -216,12 +217,12 @@
             py-5
             d-flex
             flex-column
-            pl-0
+            ps-0
             align-items-center align-items-lg-start
             justify-content-center
           "
         >
-          <img src="card2.PNG" alt="credit card" />
+          <img src="card2.PNG" width="90%" alt="credit card" />
         </div>
       </div>
     </div>
@@ -230,17 +231,10 @@
     <div class="container-fluid bg-light">
       <div class="row">
         <div
-          class="
-            col-lg-6
-            py-5
-            d-flex
-            pl-0
-            justify-content-center
-            align-items-center
-          "
+          class="col-lg-6 py-5 d-flex justify-content-center align-items-center"
         >
           <div class="container">
-            <div class="row justify-content-center py-2">
+            <div class="row justify-content-center py-2 px-md-5 mx-md-5">
               <img src="card3.PNG" alt="credit card" />
             </div>
             <div class="row px-md-5 mx-md-5">
@@ -271,8 +265,8 @@
           "
         >
           <img src="#" alt="" width="32px" height="32px" class="pb-5" />
-          <h3 class="py-2 text-lg-left text-center">Select Your Style</h3>
-          <p class="pr-2 py-2 text-lg-left text-center">
+          <h3 class="py-2 text-lg-start text-center">Select Your Style</h3>
+          <p class="pe-2 py-2 text-lg-start text-center">
             Match your card to your personality. Whether you like a minimal look
             or something that catches everyone’s eyes, we’ve got a style for
             you. You can update your style every year, for a small fee
@@ -284,14 +278,12 @@
     <!-- section 6 -->
     <div class="container-fluid py-5 px-lg-5 px-md-3">
       <div class="article mx-md-5 my-3 px-md-5">
-        <h3 class="text-md-center py-3">
-          FAQs
-        </h3>
-        <div class="accordion" id="accordionExample">
+        <h3 class="text-md-center py-3">FAQs</h3>
+        <div class="accordion accordion-flush" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
-                class="accordion-button text-danger"
+                class="accordion-button text-danger bg-body px-0"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -307,7 +299,7 @@
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body px-0">
                 <p>
                   If you’re between 23-60 years of age, have a monthly income of
                   ₹25,000 or more, and have never defaulted on a credit card or
@@ -321,7 +313,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button
-                class="accordion-button text-danger collapsed"
+                class="accordion-button text-danger collapsed bg-body px-0"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -337,7 +329,7 @@
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body px-0">
                 <p>
                   If you’re between 23-60 years of age, have a monthly income of
                   ₹25,000 or more, and have never defaulted on a credit card or
@@ -351,7 +343,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button
-                class="accordion-button text-danger collapsed"
+                class="accordion-button text-danger collapsed bg-body px-0"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -367,7 +359,7 @@
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body px-0">
                 <p>
                   If you’re between 23-60 years of age, have a monthly income of
                   ₹25,000 or more, and have never defaulted on a credit card or
@@ -381,7 +373,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button
-                class="accordion-button text-danger collapsed"
+                class="accordion-button text-danger collapsed bg-body px-0"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
@@ -397,7 +389,7 @@
               aria-labelledby="headingFour"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body px-0">
                 <p>
                   If you’re between 23-60 years of age, have a monthly income of
                   ₹25,000 or more, and have never defaulted on a credit card or
@@ -408,6 +400,7 @@
               </div>
             </div>
           </div>
+          <div class="accordion-item"></div>
         </div>
       </div>
     </div>
@@ -439,11 +432,21 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
-          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
-          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Manage Your Card</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Track Your Application</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none">Contact Us</a>
+          </p>
         </div>
-        <hr class="my-4 py-md-0 px-md-0">
+        <hr class="my-4 py-md-0 px-md-0" />
         <div
           class="
             pt-3
@@ -454,11 +457,21 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
-          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
-          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Manage Your Card</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Track Your Application</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none">Contact Us</a>
+          </p>
         </div>
-        <hr class="my-4 py-md-0 px-md-0">
+        <hr class="my-4 py-md-0 px-md-0" />
         <div
           class="
             pt-3
@@ -469,11 +482,21 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
-          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
-          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Manage Your Card</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Track Your Application</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none">Contact Us</a>
+          </p>
         </div>
-        <hr class="my-4 py-md-0 px-md-0">
+        <hr class="my-4 py-md-0 px-md-0" />
         <div
           class="
             pt-3
@@ -484,9 +507,19 @@
             align-items-md-start align-items-center
           "
         >
-          <p><a href="" class="text-white text-decoration-none">Manage Your Card</a></p>
-          <p><a href="" class="text-white text-decoration-none">Track Your Application</a></p>
-          <p><a href="" class="text-white text-decoration-none">Contact Us</a></p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Manage Your Card</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none"
+              >Track Your Application</a
+            >
+          </p>
+          <p>
+            <a href="" class="text-white text-decoration-none">Contact Us</a>
+          </p>
         </div>
       </div>
     </footer>
