@@ -1,4 +1,33 @@
-*{
-    margin: 0%;
-    padding: 0%;
+
+$btn-nav-color: #F2707C;
+$bg-section2:#8E7CB5;
+$bg-section3:#BFE1FF;
+$bg-section4:#FFE4E7;
+$bg-section5:#F7F3FF;
+$bg-footer:  #12193B;
+$footer-btn: #7C7EB5;
+
+.btn-color {
+    background: $btn-nav-color;
+}
+.btn-radius {
+    border-radius: 25px;
+}
+.bg-sec2 {
+    background: $bg-section2;
+}
+.bg-sec3-col1 {
+    background: $bg-section3;
+}
+.bg-sec4 {
+    background: $bg-section4;
+}
+.bg-sec5 {
+    background: $bg-section5;
+}
+.bg-footer {
+    background: $bg-footer;
+}
+.bg-footer-btn {
+    background: $footer-btn;
 }

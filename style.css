@@ -1,5 +1,32 @@
-* {
-  margin: 0%;
-  padding: 0%;
+.btn-color {
+  background: #F2707C;
+}
+
+.btn-radius {
+  border-radius: 25px;
+}
+
+.bg-sec2 {
+  background: #8E7CB5;
+}
+
+.bg-sec3-col1 {
+  background: #BFE1FF;
+}
+
+.bg-sec4 {
+  background: #FFE4E7;
+}
+
+.bg-sec5 {
+  background: #F7F3FF;
+}
+
+.bg-footer {
+  background: #12193B;
+}
+
+.bg-footer-btn {
+  background: #7C7EB5;
 }
 /*# sourceMappingURL=style.css.map */
